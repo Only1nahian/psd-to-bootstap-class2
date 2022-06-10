@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+font-family: 'Alfa Slab One',
+cursive;
+font-family: 'Bebas Neue',
+cursive;
+font-family: 'Montserrat',
+sans-serif;
+
+
+:root {
+    --defultFont: 'Montserrat', sans-serif;
+    --titelFont: 'Alfa Slab One', cursive;
+    --bebasFont: 'Bebas Neue', cursive;
+    --themecolure: #333300;
+}
+
+* {
+    margin: 0px;
+    margin-bottom: 0px !important;
+    padding: 0px;
+}
+
+body {
+    color: #333300;
+    padding-bottom: 50px;
+
+}
+
+
+/* === Header sec start === */
+
+header {
+    padding-top: 45px;
+    background-image: url(../images/header_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.delivary {
+    align-items: center;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.delivary p {
+    font-size: 16.67px;
+    font-family: 'Bebas Neue',
+        cursive;
+
+}
+
+.delivary img {
+    margin-right: 60px;
+}
+
+.navbar-collapse {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.navbar>.container-fluid {
+    align-items: flex-start;
+    z-index: 2;
+}
+
+.d-fllex img {
+    /* display: none !important; */
+}
+
+.navbar .hover li a:hover {
+    color: #000cff;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Bebas Neue',
+        cursive;
+    font-size: 20.83px;
+    color: rgb(0 0 0);
+    margin-right: 0px;
+    margin-left: 55px;
+}
+
+
+.banner-containt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transform: translate(10px, -48%);
+}
+
+
+.banner-containt h5 {
+    font-size: 23px;
+    font-family: 'Bebas Neue',
+        cursive;
+    border: dashed 2px;
+    border-radius: 5px;
+    padding: 5px 20px 3px;
+    display: inline;
+}
+
+.banner-containt h1 {
+    font-family: 'Alfa Slab One',
+        cursive;
+    font-size: 114px;
+    text-transform: uppercase;
+    text-shadow: 4px 5px white;
+}
+
+.banner-containt h2 {
+    font-family: 'Alfa Slab One',
+        cursive;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-shadow: 4px 5px white;
+}
+
+.row-height {
+    height: 520px;
+}
+
+.img-containt {}
+
+.img-containt img {
+    transform: translateY(-120));
+    z-index: 0;
+    transform: translate(10px, -16%);
+}
+
+.pad-contant {
+    padding-top: 90px !important;
+}
+
+.offer {
+    background-color: #cc3333;
+    position: absolute;
+    bottom: 16%;
+    left: 60%;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.offer div {
+    border: 2px dashed #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.offer h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 59px;
+    font-family: 'Bebas Neue',
+        cursive;
+    line-height: 1;
+}
+
+.offer h3 strong {
+    font-size: 30px;
+}
+
+.offer h3 span {
+    display: block;
+    font-size: 33px;
+    letter-spacing: 2px;
+}
+
+/* === Header sec end === */
+
+
+
+/* === Menu sec start === */
+
+.menu-sec {
+    padding: 80px 80px 0px;
+}
+
+.menu-sec menu {}
+
+.menuTitel {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: #fff;
+}
+
+.menu {
+    position: relative;
+    margin-left: 37px;
+}
+
+.menuTitel h3 {
+    font-family: 'Bebas Neue',
+        cursive;
+    font-size: 25px;
+}
+
+.menuTitel h2 {
+    font-family: 'Bebas Neue',
+        cursive;
+    font-size: 41px;
+}
+
+.menu-flex {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* === Menu sec end === */
+
+
+/* === Product sec start === */
+
+.product-sec {
+    padding: 30px;
+}
+
+.product-sec .product-header {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.product-header h3 {
+    font-family: 'Bebas Neue',
+        cursive;
+    font-size: 28px;
+}
+
+.product-header h4 {
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #ffcc33;
+    padding: 6px 15px;
+    font-family: 'Bebas Neue',
+        cursive;
+    font-size: 25px;
+}
+
+.product-header h2 {
+    font-family: 'Alfa Slab One',
+        cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+.product-header p {
+    font-family: 'Montserrat',
+        sans-serif;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+
+.product-footer {
+    text-align: center;
+}
+
+
+.product-footer .product h3 {
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: 'Bebas Neue',
+        cursive;
+}
+
+.product-footer .product p {
+    padding-bottom: 20px;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.product-footer .product button {
+    background-color: #ff0000;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: 'Alfa Slab One',
+        cursive;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.4s;
+}
+
+.product-footer .product button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+/* === Product sec end === */
+
+
+
+/* === Event sec start === */
+
+.event-sec {
+    margin: 80px 75px;
+}
+
+.carousel {
+    box-shadow: 10px 10px 30px #333;
+    padding: 25px;
+}
+
+.slider-contant h4 {
+    font-size: 29px;
+    font-family: 'Bebas Neue',
+        cursive;
+    text-transform: uppercase;
+    margin-bottom: 0px !important;
+}
+
+.slider-contant h2 {
+    font-size: 40px;
+    font-family: 'Alfa Slab One',
+        cursive;
+    text-transform: uppercase;
+    margin-bottom: 40px !important;
+}
+
+.slider-contant p {
+    font-size: 25px;
+    padding-right: 40px;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.slider-img {}
+
+.slider-img img {}
+
+
+.carousel-indicators {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+    margin-bottom: 50px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+.carousel-indicators [data-bs-target].active {
+    background-color: #ffcc33;
+}
+}
+
+/* === Event sec end === */
+
+
+/* === Table sec start === */
+
+.input-table {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.table-sec {
+    padding: 100px 0px 100px 0px;
+    position: relative;
+}
+
+.table-sec .product-header h2 {
+    letter-spacing: 2px;
+    margin-bottom: 80px !important;
+}
+
+.btn {
+
+    background-color: #ff0000;
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+form .form-control {
+    font-size: 20px;
+    color: 333333;
+    font-family: 'Bebas Neue',
+        cursive;
+}
+
+.burger {
+    position: absolute;
+    top: 0px;
+    height: 350px;
+    left: 0px;
+}
+
+.tomato {
+    position: absolute;
+    bottom: 3%;
+    left: 11%;
+    height: 349px;
+}
+
+.kofi {
+    position: absolute;
+    right: 0%;
+    bottom: -27%;
+    height: 515px;
+    width: 408px;
+}
+
+/* === Table sec end === */
+
+
+
+/* === footer sec start === */
+footer {
+    margin: 70px 40px;
+    background-image: url(../images/footer_background_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.container-fulid {
+    padding: 70px 40px 30px;
+}
+
+.footerLogu {}
+
+.footerLogu img {
+    height: 90px;
+}
+
+.footerLogu p {
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.footerContact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footerContact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.footerContact ul li {
+    margin-top: 15px;
+}
+
+.footerContact ul li span {
+    font-family: 'Bebas Neue',
+        cursive;
+    margin-left: 30px;
+}
+
+.footerContact ul li svg {
+    height: 25px;
+    width: 25px;
+}
+
+.copyright {
+    margin-top: 170px;
+}
+
+.copyright p {
+    font-size: 16px;
+    font-family: 'Bebas Neue',
+        cursive;
+}
+
+.copyright .social {}
+
+.social ul {}
+
+.social li {
+    margin-left: 10px;
+}
+
+.social li a {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    display: block;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s linear;
+}
+
+.social li a:hover {
+    background-color: red;
+    color: white;
+}
+
+.social li svg {}
